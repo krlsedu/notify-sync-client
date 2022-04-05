@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.csctracker</groupId>
     <artifactId>notify-sync-client</artifactId>
-    <version>20220405.2.2</version>
+    <version>20220405.3.3</version>
     <name>NotifySyncClient</name>
 
     <parent>
