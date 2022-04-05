@@ -53,7 +53,7 @@ pipeline {
                     echo "Uploading the artifacts into github"
                     sleep(time: 3, unit: "SECONDS")
 
-                    sh 'github-release upload --user krlsedu --security-token ' + env.password + ' --repo notify-sync-client --tag ' + TAG + ' --name "' + TAG + '.zip" --file notify-sync-client.zip'
+                    sh 'github-release upload --user krlsedu --security-token ' + env.password + ' --repo notify-sync-client --tag ' + TAG + ' --name notify-sync-client"' + TAG + '.zip" --file notify-sync-client.zip'
 
                     script {
                         if (env.BRANCH_NAME == 'master') {
