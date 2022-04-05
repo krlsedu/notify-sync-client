@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class StompWebSocketClient {
 
-    private static final String URL = "ws://localhost:8088/stock-ticks/websocket";
+    private static final String URL = "ws://www.csctracker.com:8088/stock-ticks/websocket";
 
     public static void main(String[] args) {
         WebSocketClient client = new StandardWebSocketClient();
